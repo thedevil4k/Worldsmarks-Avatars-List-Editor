@@ -5,7 +5,9 @@
 
 A desktop tool developed in Java Swing for editing `.worldsmarks` and `.avatars` bookmark files. This application provides a user-friendly graphical interface to manage, add, delete, and reorder entries in these specific binary files, commonly used in virtual world platforms like Worlds.com.
 
-![Screenshot of the application](URL_DE_TU_IMAGEN_AQUI.png)
+<img width="1182" height="786" alt="image" src="https://github.com/user-attachments/assets/7f19d18c-ef76-4d3f-ad26-97f5b995384e" />
+
+![Screenshot of the application](https://github.com/user-attachments/assets/7f19d18c-ef76-4d3f-ad26-97f5b995384e)
 *(Recomendación: Haz una captura de pantalla de tu programa y súbela al repositorio. Luego, reemplaza `URL_DE_TU_IMAGEN_AQUI.png` con el enlace a esa imagen)*
 
 ---

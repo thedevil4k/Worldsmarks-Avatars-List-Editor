@@ -1,7 +1,7 @@
 # Worldsmarks & Avatars List Editor
 
-![Java](https://img.shields.io/badge/language-Java-blue.svg)
-![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg) ![License: GPL v3](https://img.shields.io/badge/License-GPLv3-pink.svg)
+![Java](https://img.shields.io/badge/language-Java-orange.svg)
+![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)
 
 A desktop tool developed in Java Swing for editing `.worldsmarks` and `.avatars` bookmark files. This application provides a user-friendly graphical interface to manage, add, delete, and reorder entries in these specific binary files, commonly used in virtual world platforms like Worlds.com.
 

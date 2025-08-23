@@ -80,9 +80,3 @@ After completing the compilation, you will have a `WorldsEditor.jar` file. To ru
 java -jar WorldsEditor.jar
 ```
 
----
-## ## License
-
-This project is licensed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License**. See the `LICENSE` file for more details.
-
-This means you are free to share and adapt the project for non-commercial purposes, as long as you give appropriate credit and distribute your contributions under the same license.

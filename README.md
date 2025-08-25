@@ -6,6 +6,111 @@
 A desktop tool developed in Java Swing for editing `.worldsmarks` and `.avatars` bookmark files. This application provides a user-friendly graphical interface to manage, add, delete, and reorder entries in these specific binary files, commonly used in virtual world platforms like Worlds.com.
 ![Screenshot of the application](https://github.com/user-attachments/assets/7f19d18c-ef76-4d3f-ad26-97f5b995384e)
 
+Worldsmarks & Avatars List Editor
+Welcome! This is a desktop tool developed in Java Swing to easily and visually edit the binary .worldsmarks and .avatars files from the video game Worlds.com.
+
+The goal of this editor is to provide a modern and functional alternative to older tools, allowing for more convenient management of your world and avatar lists.
+
+✨ Features
+Intuitive GUI: Edit your lists in an easy-to-use table format.
+
+Create New Lists: Generate fresh .worldsmarks or .avatars files from scratch.
+
+Full Editing Capabilities: Add, delete, and reorder entries in your lists with a single click.
+
+Integrated Search: Quickly find any entry by its name or value.
+
+Tab Support: Work with multiple files at the same time.
+
+🚀 Getting Started
+To use the editor, you have two options:
+
+Option 1: Use the Pre-compiled Version (Recommended)
+The easiest way to get started is to download the executable .jar file from the Releases section of this repository.
+
+Go to the Releases section.
+
+Download the WorldsEditor.jar file.
+
+Make sure you have Java 8 or a newer version installed on your system.
+
+Double-click the WorldsEditor.jar file or run it from a terminal with the command:
+
+Bash
+
+java -jar WorldsEditor.jar
+Option 2: Build from Source
+If you prefer to compile the program yourself, follow the instructions below.
+
+⚙️ Building from Source
+The project is set up to be compiled with a JDK 8 or higher, generating a .jar file that is compatible with a Java 8 JRE. This ensures that the program runs on most computers without compatibility issues.
+
+Prerequisites
+Java Development Kit (JDK), version 8 or higher.
+
+The JSON-Java library, whose .jar file is included in the repository (json-20250517.jar).
+
+Compilation Process
+Follow these steps from a terminal, located in the project's root folder.
+
+1. Compile the Source Code to .class files
+This command compiles all .java files into Java 8 bytecode, ensuring maximum compatibility.
+
+Bash
+
+# On Windows
+javac --release 8 -cp ".;json-20250517.jar" *.java
+
+# On Linux / macOS
+javac --release 8 -cp ".:json-20250517.jar" *.java
+2. Unpack the JSON Library
+To create a single, self-contained executable file ("fat JAR"), we first need to extract the classes from the JSON library.
+
+Bash
+
+jar xf json-20250517.jar
+This command will create a new folder named org in the current directory.
+
+3. Package the Executable .jar
+Finally, this command packages your compiled classes, resources (assets), and the JSON library's classes into a single executable file.
+
+Bash
+
+jar cvfm WorldsEditor.jar MANIFEST.MF *.class assets org
+And that's it! The resulting WorldsEditor.jar file is your application, ready to be run and distributed.
+
+Contributing
+Contributions are welcome. If you have ideas for improving the tool or find a bug, please open an issue in the repository.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 ## ## Features
 
